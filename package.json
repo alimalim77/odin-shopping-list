@@ -7,7 +7,6 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -24,6 +23,5 @@
     "gh-pages": "^3.0.0",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
-  },
-  "homepage": "http://alimJalanTech.github.io/odin-shopping-list"
+  }
 }
