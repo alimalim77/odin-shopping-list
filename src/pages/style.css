@@ -1,0 +1,31 @@
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fce38a;
+  background-image: linear-gradient(to right, #fce38a, #f38181, #6457a6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f8e9a1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: justify;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #333333;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #555555;
+}
