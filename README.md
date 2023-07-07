@@ -15,3 +15,8 @@ Todo cum Shopping App with Weather functionality
 - Bootstrap
 - React Router
 - Context API
+
+## Run the App
+
+- npm install
+- npm run dev
