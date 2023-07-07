@@ -29,3 +29,12 @@ p {
   line-height: 1.5;
   color: #555555;
 }
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 25px;
+}

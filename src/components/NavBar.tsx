@@ -15,8 +15,14 @@ export function Navbar() {
           <Nav.Link to="/store" as={NavLink}>
             Store
           </Nav.Link>
+          <Nav.Link to="/todo" as={NavLink}>
+            ToDo
+          </Nav.Link>
           <Nav.Link to="/about" as={NavLink}>
             About
+          </Nav.Link>
+          <Nav.Link to="/contact" as={NavLink}>
+            Contact
           </Nav.Link>
         </Nav>
         {cartQuantity > 0 && (
